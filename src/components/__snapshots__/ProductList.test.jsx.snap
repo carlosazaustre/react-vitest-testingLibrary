@@ -1,0 +1,27 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<ProductList /> > should match snapshot 1`] = `
+<ul>
+  <li
+    value="Cachopo"
+  >
+    Cachopo
+     - $
+    30
+  </li>
+  <li
+    value="Chorizo a la sidra"
+  >
+    Chorizo a la sidra
+     - $
+    15
+  </li>
+  <li
+    value="Navajas"
+  >
+    Navajas
+     - $
+    25
+  </li>
+</ul>
+`;

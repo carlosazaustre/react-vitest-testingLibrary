@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import ProductList from './components/ProductList';
+import Button from './components/Button';
 import { changeOrderByPrice } from './helpers/changeOrderByPrice';
 
 const initialProducts = [
@@ -26,11 +27,12 @@ function App() {
 	return (
 		<div className="App">
 			<ProductList items={products} />
-			<button
+			<Button
+				primary
 				onClick={() => setProducts(changeOrderByPrice(products))}
 			>
 				Order by price
-			</button>
+			</Button>
 		</div>
 	);
 }

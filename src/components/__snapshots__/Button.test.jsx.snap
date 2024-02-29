@@ -1,0 +1,45 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<Button /> > should match snapshot with primary prop 1`] = `
+.c0 {
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 4px;
+  color: #000;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+  background-color: #000;
+  color: #fff;
+}
+
+.c0:hover {
+  background-color: #e0e0e0;
+}
+
+<button
+  class="c0"
+/>
+`;
+
+exports[`<Button /> > should match snapshot without props 1`] = `
+.c0 {
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 4px;
+  color: #000;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+.c0:hover {
+  background-color: #e0e0e0;
+}
+
+<button
+  class="c0"
+/>
+`;
